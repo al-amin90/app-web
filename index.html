@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-[#0E1133]">
+        <!-- nav start here  -->
+        <nav class="container mx-auto w-10/12 flex justify-between py-5">
+            <div class="flex items-center space-x-14">
+                <img src="./assets/logo-3.png" alt="">
+                <div class="hidden lg:block">
+                    <ul class=" text-white font-normal text-sm flex space-x-5 *:cursor-pointer">
+                        <li><a href=""></a>Home</li>
+                        <li><a href=""></a>About</li>
+                        <li><a href=""></a>Service</li>
+                        <li><a href=""></a>Blog</li>
+                        <li><a href=""></a>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hidden lg:block">
+                <div class="space-x-6 flex items-center ">
+                    <a href="" class="text-white font-normal text-sm">Login</a>
+                    <button
+                        class="btn bg-[#EF4444] hover:bg-transparent border-[#EF4444] duration-300 hover:border-[#EF4444] text-white">Get
+                        Started</button>
+                </div>
+            </div>
+            <div class="block lg:hidden">
+                <div class="flex justify-end">
+                    <img class="w-2/4" src="./assets/more.png" alt="">
+                </div>
+            </div>
+        </nav>
+        <!-- nav end here  -->
+    </header>
+    <main>  
+        <!-- banner start here  -->
+        <section class="bg-[#12174E]">
+            <div class="container mx-auto w-10/12 text-white pt-32 flex flex-col justify-center">
+                <div class="text-center">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl leading-none md:w-2/3 lg:w-2/4 mx-auto font-bold">Creative way to Showcase your <span class="text-[#EF4444]">App</span> </h2>
+                    <p class="my-8">Your app gets maximum attention and gets more and more downloads.</p>
+                    <div class="flex items-center justify-center gap-2">
+                        <button
+                            class="btn bg-[#EF4444] hover:bg-transparent border-[#EF4444] duration-300 hover:border-[#EF4444] text-white">Get a Quote</button>
+                        <button class="btn bg-transparent border-transparent hover:bg-transparent text-white"> <img src="./assets/play-button.png" alt="">Play Video</button>
+                    </div>
+                </div>
+                <div class="w-2/3 mx-auto translate-y-14 md:translate-y-28 lg:translate-y-44">
+                    <img src="./assets/hero-thumb-4.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- banner end here  -->
+        <!-- what can do start here  -->
+        <section>
+            <div class="container mx-auto w-10/12 py-24 md:py-48">
+                <div class="text-center">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl leading-none mx-auto font-bold mb-6">What you can do</h2>
+                    <p class="mx-auto md:w-2/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo fugit, sequi consequuntur quod dicta vero quaerat
+                        beatae
+                        officia repellat optio, culpa aliquam blanditiis expedita dolor.
+                    </p>
+                </div>
+                <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                    <div class="flex flex-col items-center p-10 border rounded-lg space-y-2 text-center">
+                        <div class="size-14 rounded-full bg-yellow-600 flex justify-center items-center mb-5">
+                            <img src="./assets/play-store.png" alt="">
+                        </div>
+                        <h4 class="text-xl font-semibold">Easy to use</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, obcaecati.</p>
+                        <h5 class="font-normal link">Read More</h5>
+                    </div>
+                    <div class="flex flex-col items-center p-10 border rounded-lg space-y-2 text-center">
+                        <div class="size-14 rounded-full bg-green-600 flex justify-center items-center mb-5">
+                            <img src="./assets/play-store.png" alt="">
+                        </div>
+                        <h4 class="text-xl font-semibold">Easy to use</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, obcaecati.</p>
+                        <h5 class="font-normal link">Read More</h5>
+                    </div>
+                    <div class="flex flex-col items-center p-10 border rounded-lg space-y-2 text-center">
+                        <div class="size-14 rounded-full bg-pink-600 flex justify-center items-center mb-5">
+                            <img src="./assets/play-store.png" alt="">
+                        </div>
+                        <h4 class="text-xl font-semibold">Easy to use</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, obcaecati.</p>
+                        <h5 class="font-normal link">Read More</h5>
+                    </div>
+                    <div class="flex flex-col items-center p-10 border rounded-lg space-y-2 text-center">
+                        <div class="size-14 rounded-full bg-gray-600 flex justify-center items-center mb-5">
+                            <img src="./assets/play-store.png" alt="">
+                        </div>
+                        <h4 class="text-xl font-semibold">Easy to use</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, obcaecati.</p>
+                        <h5 class="font-normal link">Read More</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- what can do end here  -->
+    </main>
+</body>
+</html>
